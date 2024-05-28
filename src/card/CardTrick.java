@@ -61,8 +61,8 @@ public class CardTrick {
 
         Card luckyCard = new Card();
 
-        luckyCard.setValue = 4;
-        luckyCard.setSuit = "Hearts";
+        luckyCard.setValue(4);
+        luckyCard.setSuit("Hearts");
 
         boolean lcFound = false;
         for (Card n: magicHand)

@@ -58,6 +58,29 @@ public class CardTrick {
             System.out.println("Your card was not found");
         }
         // add one luckcard hard code 2,clubs
+
+        Card luckyCard = new Card();
+
+        luckyCard.setValue = 4;
+        luckyCard.setSuit = "Hearts";
+
+        boolean lcFound = false;
+        for (Card n: magicHand)
+            {
+                if (n.getValue() == luckyCard.getValue() && n.getSuit().equals(luckyCard.getSuit()))
+                {
+                    lcFound = true;
+                }
+
+        if (lcFound)
+        {
+            System.out.println("Your lucky card was found");
+        }
+        else 
+        {
+            System.out.println("Your lucky card was not found");
+        }
+    }
     }
     
 }

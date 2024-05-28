@@ -71,6 +71,7 @@ public class CardTrick {
                 {
                     lcFound = true;
                 }
+            }
 
         if (lcFound)
         {
@@ -81,6 +82,5 @@ public class CardTrick {
             System.out.println("Your lucky card was not found");
         }
     }
-    }
-    
 }
+    
